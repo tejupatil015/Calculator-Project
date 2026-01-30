@@ -42,4 +42,51 @@ The calculator is designed with a clean UI, responsive layout, and optimized log
 5. The calculated result is displayed instantly  
 
 ---
+---
 
+## 🧪 Example Operations
+- `8 + 5 = 13`
+- `10 - 3 = 7`
+- `6 × 4 = 24`
+- `20 ÷ 5 = 4`
+
+---
+
+## ✅ Advantages
+- Simple and easy to use  
+- Fast and accurate results  
+- Clean and responsive UI  
+- Beginner-friendly logic  
+- Useful for learning frontend fundamentals  
+
+---
+
+## 🚀 Future Enhancements
+- Scientific calculator functions  
+- Keyboard input support 
+- Dark mode UI  
+- Mobile app version  
+
+---
+
+## 📚 Learning Outcomes
+- Hands-on experience with frontend technologies  
+- Improved JavaScript logic-building skills  
+- Better understanding of UI/UX design principles  
+- Practical knowledge of DOM manipulation  
+
+---
+
+## 👨‍💻 Developer
+**Name:** Teju Patil  
+**Branch:** Electronics & Telecommunication Engineering  
+**Project Type:** Mini Project / Academic Project  
+
+---
+
+## 📜 License
+This project is developed for educational purposes.  
+You are free to use and modify it for learning and practice.
+
+---
+⭐ 
