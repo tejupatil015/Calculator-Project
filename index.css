@@ -33,17 +33,6 @@ body{
 }
 
 
-button{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: none;
-    background-color: rgb(34, 33, 33);
-    color: aliceblue;
-    font-size: 3rem;
-    font-weight: bold;
-    cursor: pointer;
-}
 
 button:hover{
     background-color:hsl(0, 0%, 40%);
