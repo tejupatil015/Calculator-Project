@@ -1,9 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
+    padding: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 
@@ -12,34 +17,35 @@ body{
     font-family: Arial, sans-serif;
     background-color: black;
     border-radius: 15px;
-    max-width: 500px;
+    width: min(100%, 500px);
     overflow: hidden;
 }
 #display{
     width: 100%;
-    padding: 20px;
-    font-size: 5rem;
+    padding: 16px;
+    font-size: clamp(2.5rem, 12vw, 5rem);
     text-align: left;
     border: none;
     background-color: rgb(77, 76, 76);
     color: aliceblue;
+    min-height: 96px;
 }
 
 #keys{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 25px;
+    gap: clamp(6px, 2vw, 10px);
+    padding: clamp(16px, 5vw, 25px);
 }
 
 button{
-    height: 100px;
-    width: 100px;
+    width: 100%;
+    aspect-ratio: 1;
     border-radius: 50%;
     border: none;
     background-color: rgb(34, 33, 33);
     color: aliceblue;
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 7vw, 3rem);
     font-weight: bold;
     cursor: pointer;
 }
